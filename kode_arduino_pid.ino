@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-// === PIN DEFINISI ===
+//PIN
 #define RPWM 10
 #define LPWM 12
 #define REN 6
@@ -17,7 +17,7 @@
 #define PWM_MIN 80
 #define PWM_MAX 255
 
-// === PID VARIABEL ===
+// PID
 float setpoint = 27.5;
 float Kp = 8.0;
 float Ki = 0.8;
